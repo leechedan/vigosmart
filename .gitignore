@@ -1,0 +1,5 @@
+node_modules
+public/js/*.js
+public/css/*.css
+public/*.html
+*DS_STORE

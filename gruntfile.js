@@ -6,7 +6,7 @@ module.exports = function (grunt) {
                 options: {
                     layoutdir: 'include/html/layouts/',
                     partials:'include/html/partials/**/*',
-                    data:'include/html/data/*.yml'
+                    data:'include/html/data/*.{json,yml}'
                 },
                 site: {
                     expand: true,
@@ -73,7 +73,7 @@ module.exports = function (grunt) {
                     options: {
                         keepalive: true,
                         hostname: '0.0.0.0',
-                        port: 7082,
+                        port: 7083,
                         base: 'public/'
                         }
                     }

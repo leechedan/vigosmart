@@ -1,0 +1,16 @@
+---
+layout: part-layout.hbs
+---
+    {{>header}}
+    {{#with articles.article1}}
+      {{> column}}
+    {{/with}}
+
+    {{#with articles.article2}}
+      {{> column}}
+    {{/with}}
+
+    {{#with articles.article3}}
+    {{> column}}
+    {{/with}}
+    {{>footer}}

@@ -1,3 +1,5 @@
 title: Vigosmart
 url: http://vigosmart.com/
 description: Vigosmart Homepage
+pages: [ {data: {title: 'Post #1' }, content: '{{md "blog/post1.md"}}' }, {data: {title: 'Post #2' }, content: '{{md "blog/post2.md"}}' }, ]
+indexs: [	{url: 'index.html', title: 'HOME' }, {url: 'about.html', title: 'ABOUT' }, {url: 'apps.html', title: 'APPLICATIONS' }, {url: 'events.html', title: 'EVENTS' }, {url: 'contact.html', title: 'CONTACT' },]
